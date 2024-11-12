@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 import SongList from './components/SongList';
 import ArtistHeader from './components/ArtistHeader';
 import NowPlaying from './components/NowPlaying';
-import { sampleSongs } from './data/SampleSongs';
+import { sampleSongs } from './data/sampleSongs';
 
 const App = () => {
   const [songs, setSongs] = useState(sampleSongs);
